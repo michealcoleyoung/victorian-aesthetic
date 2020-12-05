@@ -155,14 +155,16 @@ label {
   border: 1px solid black;
   width: 500px;
   height: 500px;
-  margin: auto;
   -webkit-transition: 0s;
   transition: 0s;
+  border-radius: 0px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin-bottom: 10px;
 }
 
 .card-title {
   color: white;
-  visibility: hidden;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -175,13 +177,21 @@ label {
   font-size: 50px;
 }
 
-.card:hover {
-  cursor: pointer;
-  -webkit-filter: brightness(50%);
-          filter: brightness(50%);
+.card-img-overlay {
+  opacity: 0;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  mix-blend-mode: luminosity;
 }
 
-.card:hover .card-title {
-  visibility: visible;
+.card-img-overlay:hover {
+  opacity: .7;
+  cursor: pointer;
+  background-color: black;
+}
+
+.row {
+  margin: 45px;
+  margin-bottom: -45px;
 }
 /*# sourceMappingURL=style.css.map */
