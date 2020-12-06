@@ -52,8 +52,7 @@ span {
 
 .container img {
   height: auto;
-  width: auto\9;
-  /* ie8 */
+  width: auto 9;
 }
 
 .gallery {
@@ -193,5 +192,11 @@ label {
 .row {
   margin: 45px;
   margin-bottom: -45px;
+}
+
+.title,
+.description {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
 }
 /*# sourceMappingURL=style.css.map */
