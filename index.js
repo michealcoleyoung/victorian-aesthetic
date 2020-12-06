@@ -11,12 +11,3 @@ window.addEventListener("resize", function() {
 $('.carousel').carousel({
     interval: false,
 });
-
-// window.onload = function setColor() {
-//     let carouselItems = document.getElementsByClassName('carousel-item');
-//     for (let item of carouselItems) {
-//         item.body.style.backgroundBlendMode = "luminosity";
-//         // item.body.style.setColor = "blue";
-//     }
-
-// }
